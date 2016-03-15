@@ -6,11 +6,6 @@ gem 'rails', '4.2.5.2'
 # Use sqlite3 as the database for Active Record
 
 gem 'rack-cors', :require => 'rack/cors'
-gem 'react-rails', '~> 1.6.0'
-gem 'handlebars_assets'
-gem 'marionette-rails'
-gem 'backbone-on-rails'
-gem "browserify-rails"
 group :development, :test do
   gem 'sqlite3'
 end
